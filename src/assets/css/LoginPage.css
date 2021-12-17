@@ -51,6 +51,7 @@ input, button{
   background-color: #71be58;
   color: white;
   margin: 2rem auto;
+  cursor: pointer;
 }
 
 .forgot-link{
@@ -58,4 +59,8 @@ input, button{
   color: #999;
   margin: auto;
   text-align: center;
+}
+
+.login-form-errors{
+  color: #d24;
 }
