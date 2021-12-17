@@ -1,0 +1,9 @@
+::root{
+  --accent-01: #41bf99;
+}
+
+.charts{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}

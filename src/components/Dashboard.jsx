@@ -1,7 +1,10 @@
 import React from 'react';
-import "../assets/css/LoginPage.css";
+import "../assets/css/Dashboard.css";
+import Charts from "./Charts";
+
 
 export default function Dashboard(props){
-
-  return (<div></div>);
+  return (
+    <Charts />
+  );
 }
