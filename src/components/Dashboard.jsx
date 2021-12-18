@@ -77,6 +77,7 @@ export default function Dashboard(props){
       }
     }
   };
+  console.info("Page is responsive just reload it for small screens");
 
 
   return (
