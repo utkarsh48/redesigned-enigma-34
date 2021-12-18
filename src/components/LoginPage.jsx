@@ -38,8 +38,12 @@ export default function LoginPage(props){
     if(!validatePassword(password)) err.password = "Invalid Password";
     else err.password = "";
 
-    if(!err.password && !err.username && password==="SmartServTest@123"){
-      navigate("/dashboard");
+    if(!err.password && !err.username){
+      if(password==="SmartServTest@123"){
+        navigate("/dashboard");
+      }else{
+        err.password = "Wrong Password";
+      }
     }
 
     setErrors(err);
